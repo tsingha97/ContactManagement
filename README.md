@@ -18,8 +18,8 @@ Ensure you have the following installed:
 ### 2️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/contact-management-backend.git
-cd contact-management-backend
+git clone https://github.com/tsingha97/ContactManagement.git
+cd ContactManagement
 ```
 
 ### 3️⃣ Install Dependencies
