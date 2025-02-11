@@ -72,7 +72,7 @@ curl -X GET http://localhost:3000/contacts
   {
     "name": "John Doe",
     "email": "john@example.com",
-    "phone": "123-456-7890",
+    "phoneNumber": "123-456-7890",
     "createdAt": "2024-02-10T10:00:00.000Z",
     "contactId": "67aa4685f656beb363c18780"
   }
@@ -94,7 +94,7 @@ curl -X GET http://localhost:3000/contacts/67aa4685f656beb363c18780
 ```bash
 curl -X POST http://localhost:3000/contacts \
      -H "Content-Type: application/json" \
-     -d '{ "name": "Jane Doe", "email": "jane@example.com", "phone": "987-654-3210" }'
+     -d '{ "name": "Jane Doe", "email": "jane@example.com", "phoneNumber": "987-654-3210" }'
 ```
 
 **Response:**
@@ -103,7 +103,7 @@ curl -X POST http://localhost:3000/contacts \
 {
   "name": "Jane Doe",
   "email": "jane@example.com",
-  "phone": "987-654-3210",
+  "phoneNumber": "987-654-3210",
   "createdAt": "2024-02-10T10:10:00.000Z",
   "contactId": "67aa4685f656beb363c18780"
 }
@@ -116,7 +116,7 @@ curl -X POST http://localhost:3000/contacts \
 ```bash
 curl -X PUT http://localhost:3000/contacts/67aa4685f656beb363c18780 \
      -H "Content-Type: application/json" \
-     -d '{ "name": "Jane Smith", "email": "janesmith@example.com", "phone": "123-555-6789" }'
+     -d '{ "name": "Jane Smith", "email": "janesmith@example.com", "phoneNumber": "123-555-6789" }'
 ```
 
 ### 5️⃣ Delete a Contact
